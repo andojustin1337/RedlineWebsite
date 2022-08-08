@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Navbar Styling
+
+nav {
+    display: flex;
+    padding-top: 20px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-links {
+    display: flex;
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 1.375rem;
+    }
+
+    li {
+        list-style-type: none;
+        display: block;
+        padding: 10px;
+    }
+}
+
+// Section 1 Styling
+
+.landingpic {
+    width: 100%;
+}
+
+.hook {
+    h1 {
+       text-align: right;
+       font-size: 5rem;
+    }
+    p {
+        text-align: right;
+    }
+}
